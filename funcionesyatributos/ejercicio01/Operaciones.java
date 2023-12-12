@@ -24,11 +24,11 @@ public class Operaciones {
 		return num1 - num2;
 	}
 
-	public double multiplicación() {
+	public double multiplicacion() {
 		return num1 * num2;
 	}
 
-	public double división() {
+	public double division() {
 		double resultado = 0;
 		if (num2 != 0) {
 			resultado = num1 / num2;
