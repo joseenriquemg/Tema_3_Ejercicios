@@ -8,9 +8,9 @@ public class Principal {
 
 		// Solicitar al usuario que ingrese el radio y la altura
 		double radio = pideRadioBase();
-		double h = pideAltura();
+		double altura = pideAltura();
 		// Crear un objeto Cilindro
-		Cilindro cilindro = new Cilindro(radio, h);
+		Cilindro cilindro = new Cilindro(radio, altura);
 		//Variable para la opcion de usuario
 		int opcion;
 		//Creamos un do while para dar el resultado cuando se cumpla la condicion
